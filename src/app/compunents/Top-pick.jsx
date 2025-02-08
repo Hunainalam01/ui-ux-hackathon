@@ -1,9 +1,4 @@
-// import Image from "next/image";
-import Link from "next/link";
-// import product1 from "../../../public/Mask group.png";
-// import product2 from "../../../public/Mask group (1).png";
-// import product3 from "../../../public/Mask group (2).png";
-// import product4 from "../../../public/Mask group (3).png";
+import Link from "next/link"; 
 import React from "react";
 import ProductCard from "@/app/compunents/ProductCard";
 import { urlFor } from "@/sanity/lib/image";
@@ -31,7 +26,7 @@ async function TopPick() {
 
         <div className="  bg-white p-8 flex sm:flex-row flex-col justify-center items-center w-[100%]">
           {data2 &&
-            data2.map((item: any) => {
+            data2.map((item) => {
               return (
                 <ProductCard
                   key={item._id}

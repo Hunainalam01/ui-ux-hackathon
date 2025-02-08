@@ -115,4 +115,3 @@ function Navbar() {
 
 export default Navbar;
 
-// border-2 border-red-600

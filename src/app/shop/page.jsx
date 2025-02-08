@@ -4,23 +4,6 @@ import React from "react";
 import filter2 from "../../../public/shop/ci_grid-big-round.png";
 import filter3 from "../../../public/shop/bi_view-list.png";
 import filter from "../../../public/shop/Vector.png";
-// // items
-// import product1 from "../../../public/Mask group.png";
-// import product2 from "../../../public/Mask group (1).png";
-// import product3 from "../../../public/Mask group (2).png";
-// import product4 from "../../../public/Mask group (3).png";
-// import product5 from "../../../public/shop/Mask group (2).png";
-// import product6 from "../../../public/shop/Mask group (3).png";
-// import product7 from "../../../public/shop/Mask group (6).png";
-// import product8 from "../../../public/shop/Mask group (7).png";
-// import product9 from "../../../public/shop/Mask group (8).png";
-// import product10 from "../../../public/shop/Mask group (9).png";
-// import product11 from "../../../public/shop/Mask group (10).png";
-// import product13 from "../../../public/shop/Mask group (11).png";
-// import product14 from "../../../public/shop/Mask group (12).png";
-// import product15 from "../../../public/shop/Mask group (13).png";
-// import product16 from "../../../public/shop/Mask group (11).png";
-
 import logo from "../../../public/shop/logo.png";
 import ProductCard from "@/app/compunents/ProductCard";
 import { urlFor } from "@/sanity/lib/image";
@@ -137,7 +120,7 @@ async function Shop() {
           <div className="  bg-white sm:h-[60%]  p-8 grid grid-cols-4 gap-4 justify-center items-center w-[100%]">
             {/* one  */}
             {data &&
-              data.map((item: any) => {
+              data.map((item) => {
                 return (
                   <ProductCard
                     key={item._id}

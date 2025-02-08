@@ -1,6 +1,4 @@
-"use client";
-// import Image from "next/image";
-// import heroSofa from "../hero.png";
+"use client"; 
 import React from "react";
 import Link from "next/link";
 
