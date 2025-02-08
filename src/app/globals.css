@@ -1,0 +1,32 @@
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ 
+
+
+.hero-bg{
+  background-image: url(../../public/hero-image.png);
+  background-repeat: no-repeat;
+  background-size: 86% ;
+}
+
+ .our-intsa{
+  background-image: url(../../public/Rectangle\ 17.png);
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%; 
+  height: 66vh; 
+  aspect-ratio: 16/9; 
+}
+
+.shop-page{
+  background-image: url(../../public/shop/Rectangle\ 1.png);
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%; 
+  height: 316px; 
+
+}
